@@ -13,7 +13,7 @@ public class systemmessage {
 	private int user_id; //接收者（用户）id
 	private String title; //消息题
 	private String content; //消息内容
-	private int type; //消息类型
+	private int type; //消息类型(1新闻通知;2比赛通知;3成绩通知)
 	private String sendDateTime; //发送时间（日期+具体时间）
 	private int sender; //发送者id
 	

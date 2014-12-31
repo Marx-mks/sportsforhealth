@@ -14,7 +14,7 @@ public class namelist {
 	private String item_name;
 	private int athlete_id;
 	private String athlete_name;
-	private String date; //名单记录日期
+	private String date; //比赛日期。根据item_id查找到item的比赛日期
 	
 	@Id
 	public int getId() {

@@ -46,6 +46,7 @@
 	<mapping class="com.ccs.Entity.systemmessage" />
 	<mapping class="com.ccs.Entity.team_score" />
 	<mapping class="com.ccs.Entity.team" />
+	<mapping class="com.ccs.Entity.user_athlete" />
 	<mapping class="com.ccs.Entity.user" />
 </session-factory>
 

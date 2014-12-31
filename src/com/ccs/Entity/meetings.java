@@ -15,6 +15,7 @@ public class meetings {
 	private String end; //结束时间
 	private String sponsor; //主办单位(多个，用逗号隔开，之后用逗号进行截取)
 	private String sponsor_co; //协办单位(同上)
+	private String detail; //描述
 	
 	@Id
 	public int getId() {
@@ -52,6 +53,12 @@ public class meetings {
 	}
 	public void setSponsor_co(String sponsor_co) {
 		this.sponsor_co = sponsor_co;
+	}
+	public String getDetail() {
+		return detail;
+	}
+	public void setDetail(String detail) {
+		this.detail = detail;
 	}
 	
 }

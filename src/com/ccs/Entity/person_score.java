@@ -12,13 +12,14 @@ public class person_score {
 	private int id;
 	private int athlete_id;
 	private String athlete_name; //运动员姓名
+	private int item_id;
 	private String item_name; //比赛项目
 	private String stage; //比赛阶段
 	private String score; //成绩
 	private int ranking; //排名
 	private int isbroke; //是否打破记录（0否，1是）
 	private String score_date; //录入成绩日期
-	private String type; //比赛类型（1团体，2个人）
+	private int type; //比赛类型（1团体，2个人）
 	private String team; //所属团队
 	private String note; //备注
 	private String meeting_name; //运动会名
@@ -41,6 +42,12 @@ public class person_score {
 	}
 	public void setAthlete_name(String athlete_name) {
 		this.athlete_name = athlete_name;
+	}
+	public int getItem_id() {
+		return item_id;
+	}
+	public void setItem_id(int item_id) {
+		this.item_id = item_id;
 	}
 	public String getItem_name() {
 		return item_name;
@@ -78,10 +85,10 @@ public class person_score {
 	public void setScore_date(String score_date) {
 		this.score_date = score_date;
 	}
-	public String getType() {
+	public int getType() {
 		return type;
 	}
-	public void setType(String type) {
+	public void setType(int type) {
 		this.type = type;
 	}
 	public String getTeam() {

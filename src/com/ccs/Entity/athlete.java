@@ -11,7 +11,7 @@ public class athlete {
 
 	private int id;
 	private String name; //运动员姓名
-	private String sex; //性别
+	private String sex; //性别(男;女)
 	private String bornplace; //出生地
 	private String birthdat; //生日
 	private String head; //头像（用于存放头像url地址）
